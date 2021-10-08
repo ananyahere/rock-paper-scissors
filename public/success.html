@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap" rel="stylesheet">  
+  <script src="https://kit.fontawesome.com/8e41bdd404.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>RPS</title>
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <div class="score-board">
+    <div class="badge" id="user-label">User</div>
+    <div class="badge" id="comp-label">Comp</div>
+    <span id="user-score">0</span>:<span id="comp-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>
+      Welcome to my game!
+    </p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="hand-rock" class="r"><span  class="icon-span"><i class="fas fa-hand-rock"></i></span></div>
+    <div class="choice" id="hand-paper" class="p"><span  class="icon-span"><i class="fas fa-hand-paper"></i></span></div>
+    <div class="choice" id="hand-scissors" class="s"><span class="icon-span"><i class="fas fa-hand-scissors"></i></span></div>
+  </div>
+
+  <p id="action-message">Make your Move!</p>
+  <script src="app.js"></script>
+</body>
+</html>
